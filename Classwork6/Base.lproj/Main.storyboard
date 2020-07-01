@@ -10,7 +10,7 @@
         <!--الافلام-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="MoviesMasterVC" customModule="Classwork6" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -23,31 +23,49 @@
                                 <rect key="frame" x="18" y="216" width="100" height="120"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.91350340839999999" green="0.51614099739999997" blue="0.64163434509999995" alpha="0.26450128420000002" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <action selector="marvelBtns:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Cu0-i6-V27"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y46-jn-gdf">
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y46-jn-gdf">
                                 <rect key="frame" x="157" y="216" width="100" height="120"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.91350340839999999" green="0.51614099739999997" blue="0.64163434509999995" alpha="0.26450128420000002" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <action selector="marvelBtns:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ytX-xA-9ki"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wqn-Xt-cGM">
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wqn-Xt-cGM">
                                 <rect key="frame" x="294" y="216" width="100" height="120"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.91350340839999999" green="0.51614099739999997" blue="0.64163434509999995" alpha="0.26450128420000002" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <action selector="marvelBtns:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MC7-AB-tLR"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ANr-mM-EyQ">
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ANr-mM-EyQ">
                                 <rect key="frame" x="18" y="369" width="100" height="120"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.91350340839999999" green="0.51614099739999997" blue="0.64163434509999995" alpha="0.26450128420000002" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <action selector="marvelBtns:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OAj-Ob-vTw"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ddH-fP-GTe">
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ddH-fP-GTe">
                                 <rect key="frame" x="157" y="369" width="100" height="120"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.91350340839999999" green="0.51614099739999997" blue="0.64163434509999995" alpha="0.26450128420000002" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <action selector="marvelBtns:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BoD-LO-3xj"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xcE-Bz-dvm">
+                            <button opaque="NO" tag="5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xcE-Bz-dvm">
                                 <rect key="frame" x="294" y="369" width="100" height="120"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.91350340839999999" green="0.51614099739999997" blue="0.64163434509999995" alpha="0.26450128420000002" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <action selector="marvelBtns:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aBP-xg-1Ja"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DC_Logo" translatesAutoresizingMaskIntoConstraints="NO" id="Cv0-Ah-mmK">
                                 <rect key="frame" x="0.0" y="512" width="414" height="80"/>
@@ -57,31 +75,49 @@
                                 <rect key="frame" x="18" y="613" width="100" height="120"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.91350340839999999" green="0.51614099739999997" blue="0.64163434509999995" alpha="0.26450128420000002" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <action selector="dcBtnbs:" destination="BYZ-38-t0r" eventType="touchUpInside" id="U9p-uq-ULt"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="atC-27-T6t">
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="atC-27-T6t">
                                 <rect key="frame" x="157" y="613" width="100" height="120"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.91350340839999999" green="0.51614099739999997" blue="0.64163434509999995" alpha="0.26450128420000002" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <action selector="dcBtnbs:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KxX-e2-FVQ"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dc8-8q-1wf">
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dc8-8q-1wf">
                                 <rect key="frame" x="294" y="613" width="100" height="120"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.91350340839999999" green="0.51614099739999997" blue="0.64163434509999995" alpha="0.26450128420000002" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <action selector="dcBtnbs:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tI0-ah-Jmy"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sVt-qy-fwp">
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sVt-qy-fwp">
                                 <rect key="frame" x="18" y="766" width="100" height="120"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.91350340839999999" green="0.51614099739999997" blue="0.64163434509999995" alpha="0.26450128420000002" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <action selector="dcBtnbs:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nca-fp-ILz"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KnH-qT-GGw">
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KnH-qT-GGw">
                                 <rect key="frame" x="157" y="766" width="100" height="120"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.91350340839999999" green="0.51614099739999997" blue="0.64163434509999995" alpha="0.26450128420000002" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <action selector="dcBtnbs:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AXL-pt-oTO"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="605-dC-dQh">
+                            <button opaque="NO" tag="5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="605-dC-dQh">
                                 <rect key="frame" x="294" y="766" width="100" height="120"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.91350340839999999" green="0.51614099739999997" blue="0.64163434509999995" alpha="0.26450128420000002" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <action selector="dcBtnbs:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fkY-y3-gbE"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -89,7 +125,19 @@
                     </view>
                     <navigationItem key="navigationItem" title="الافلام" id="ZOp-Vz-C3O"/>
                     <connections>
-                        <segue destination="HhN-Gp-jLB" kind="show" id="hts-zE-755"/>
+                        <outlet property="dcBtn0" destination="UCa-6c-aUO" id="rpL-TZ-OO7"/>
+                        <outlet property="dcBtn1" destination="atC-27-T6t" id="7rk-tl-nw2"/>
+                        <outlet property="dcBtn2" destination="Dc8-8q-1wf" id="TVV-y4-fl7"/>
+                        <outlet property="dcBtn3" destination="sVt-qy-fwp" id="l58-1U-rYa"/>
+                        <outlet property="dcBtn4" destination="KnH-qT-GGw" id="fTY-eh-M4a"/>
+                        <outlet property="dcBtn5" destination="605-dC-dQh" id="e4D-RW-xl6"/>
+                        <outlet property="marvelBtn0" destination="wsC-Xz-45w" id="oK8-yj-AFh"/>
+                        <outlet property="marvelBtn1" destination="Y46-jn-gdf" id="8Kg-8I-ooi"/>
+                        <outlet property="marvelBtn2" destination="Wqn-Xt-cGM" id="rWb-Rm-oLV"/>
+                        <outlet property="marvelBtn3" destination="ANr-mM-EyQ" id="osU-9B-Rsq"/>
+                        <outlet property="marvelBtn4" destination="ddH-fP-GTe" id="Uqf-Wd-bwH"/>
+                        <outlet property="marvelBtn5" destination="xcE-Bz-dvm" id="4k7-q2-5Bm"/>
+                        <segue destination="HhN-Gp-jLB" kind="show" identifier="details" id="hts-zE-755"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -117,7 +165,7 @@
         <!--اسم الفلم-->
         <scene sceneID="6Lm-PV-Ftb">
             <objects>
-                <viewController id="HhN-Gp-jLB" sceneMemberID="viewController">
+                <viewController id="HhN-Gp-jLB" customClass="MovieDetailsVC" customModule="Classwork6" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="t5h-hf-96k">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -191,10 +239,22 @@
                         <viewLayoutGuide key="safeArea" id="fGq-DN-6CU"/>
                     </view>
                     <navigationItem key="navigationItem" title="اسم الفلم" id="wv0-KF-1LP"/>
+                    <connections>
+                        <outlet property="actorImageView1" destination="ZWp-VR-Sif" id="kbl-17-n8D"/>
+                        <outlet property="actorImageView2" destination="I8a-5L-YN7" id="rC2-Dc-Z9k"/>
+                        <outlet property="actorImageView3" destination="eGL-A8-aua" id="ZzZ-Jn-ixL"/>
+                        <outlet property="actorLabel1" destination="xAR-xT-PE7" id="NNc-t7-iIV"/>
+                        <outlet property="actorLabel2" destination="IFk-jF-LQi" id="Sj6-QW-TAd"/>
+                        <outlet property="actorLabel3" destination="kww-Gv-i2L" id="G0y-jx-JEC"/>
+                        <outlet property="movieImageView" destination="c4D-Y3-QyO" id="C50-zu-Gd8"/>
+                        <outlet property="movieRatedLabel" destination="F7q-Oz-11H" id="pYo-9k-A6F"/>
+                        <outlet property="movieRatingLabel" destination="Yca-J4-XAR" id="2jA-vn-pyS"/>
+                        <outlet property="releaseDateLabel" destination="mg1-cC-XLT" id="hMc-KT-pHg"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="u4n-Ag-3f5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2661" y="139"/>
+            <point key="canvasLocation" x="3193" y="139"/>
         </scene>
     </scenes>
     <resources>
